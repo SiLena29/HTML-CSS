@@ -1,0 +1,114 @@
+body {
+  width: 1300px;
+  margin: 0px auto;
+  font-family: "Playfair Display", serif;
+  border: 3px solid rgb(184, 20, 20);
+}
+
+/* Main menu */
+
+.main_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 70px 87px;
+}
+
+.nav-menu-list {
+  color: #626262;
+  text-transform: uppercase;
+  list-style: none;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.nav-menu-list:hover {
+  color: cyan;
+}
+
+/* Content section */
+
+.content-section {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto;
+}
+
+img {
+  width: 470px;
+}
+
+figcaption {
+  font-family: "Roboto", sans-serif;
+  color: #626262;
+  padding: 30px 0px 16px;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+
+.name-section {
+  color: #626262;
+  padding: 16px 0px 40px;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.text-section {
+  color: #626262;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0 0 115px 0;
+}
+
+.festival-section {
+  width: 470px;
+  margin: 0 75px 0 150px;
+}
+
+.coffee-section {
+  width: 470px;
+  margin: 0 150 0 75;
+}
+
+.dream-section {
+  width: 470px;
+  margin: 0 75px 0 150px;
+}
+
+.trevel-section {
+  width: 470px;
+  margin: 0 150 0 75;
+}
+
+.song-section {
+  width: 470px;
+  margin: 0 75px 0 150px;
+}
+.weather-section {
+  width: 470px;
+  margin: 0 150 0 75;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: 3px solid #626262;
+  margin: auto;
+  width: 160px;
+  height: 60px;
+}
+
+.button {
+  border: none;
+  background-color: none;
+  color: #626262;
+  font-size: 20px;
+}
